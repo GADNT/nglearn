@@ -4,7 +4,8 @@
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
     "module": "es2015",
-    "types": []
+    "types": [],
+    "no-trailing-whitespace": [true, "ignore-comments", "ignore-template-strings"]
   },
   "exclude": [
     "test.ts",
