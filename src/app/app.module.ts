@@ -1,21 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { TeamsComponent } from './teams.component';
+import { TeamsComponent } from './teams/teams.component';
 import { AuthorsComponent } from './authors/authors.component';
-import { TeamsService } from './teams.service';
+import { TeamsService } from './teams/teams.service';
+import { TeamPipe } from './teams/teams.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TeamsComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    TeamPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [
     TeamsService

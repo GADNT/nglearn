@@ -1,6 +1,11 @@
 <h1> {{ title }}</h1>
-<ul id="team">
-    <li *ngFor="let team of teams">
-        {{ team }}
+<ul id="te">
+    <li *ngFor='let team of teams | tpipes'>
+        {{ team.name }} 
+        <span class="glyphicon glyphicon-star" [class.glyphicon-star]="team.isFavorite"
+         [class.glyphicon-star-empty]="!team.isFavorite" (click)="onClick(team)"></span>
     </li>
+
+    
+
 </ul>

@@ -8,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 
 export class AuthorsComponent {
 
-  authors  = ["a1", "a2"];
+  authors  = ['a1', 'a2'];
 
 }

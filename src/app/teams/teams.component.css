@@ -1,4 +1,6 @@
-#team {
+@import "~bootstrap/dist/css/bootstrap.css";
+
+#te {
     background: green;
     background-repeat: gray;
 }

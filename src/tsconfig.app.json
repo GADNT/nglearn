@@ -3,9 +3,8 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
-    "module": "es2015",
-    "types": [],
-    "no-trailing-whitespace": [true, "ignore-comments", "ignore-template-strings"]
+    "module": "es6",
+    "types": [] 
   },
   "exclude": [
     "test.ts",
